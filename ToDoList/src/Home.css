@@ -1,0 +1,66 @@
+/* Home.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .home .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .home h1 {
+    color: #3498db;
+    text-align: center;
+  }
+  
+  .home h2 {
+    color: #555;
+    text-align: center;
+  }
+  
+  .home .todo-container {
+    margin-top: 20px;
+  }
+  
+  .home .todo-item {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.home .Ttask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #76a0bb;
+  color: #1c1c1b;
+  padding: 10px;
+  margin: 10px 348px;
+  border-radius: 5px;
+  width: 50%;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home .Ttask .icon {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.line_through{
+  text-decoration: line-through;
+}
+
